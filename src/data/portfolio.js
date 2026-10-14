@@ -7,7 +7,7 @@ export const profile = {
   name: 'Celvin Knudsen',
   firstName: 'Celvin',
   initials: 'CK',
-  role: 'Full stack developer',
+  role: 'Software Developer',
   email: 'Celvin.p.knudsen@gmail.com',
   github: 'https://github.com/',
   about: 'I’m a software developer with nearly a decade of hands-on programming and a product mindset. I’ve moved between building digital products and working closely with an agile team, always looking for practical ways to turn ambitious ideas into useful software. I enjoy the full journey—from shaping an idea and its interface to developing and improving the product.',
@@ -32,6 +32,17 @@ export const experience = [
 
 export const projects = [
   {
+    title: 'WatchlistTogether',
+    image: watchListProject,
+    imagePosition: 'center top',
+    category: 'Web application',
+    description: 'Worked on the SQLite backend for a watchlist app that uses an API to add shows and movies, track statuses such as Watching, Completed, and Dropped, and record episode progress for shows.',
+    stack: ['SQLite', 'Backend', 'API'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/Official404/WatchlistTogether',
+    art: 'orange', artTitle: 'WATCHLIST TOGETHER', artGlyph: '+',
+  },
+  {
     title: 'Collision Avoidance Simulation',
     image: collisionAvoidanceProjectImage,
     imagePosition: 'center top',
@@ -51,16 +62,5 @@ export const projects = [
     liveUrl: 'https://ckaygc.github.io/MapNavigationProject/',
     githubUrl: 'https://github.com/CkayGC/MapNavigationProject',
     art: 'lime', artTitle: 'MAP NAVIGATION', artGlyph: '*',
-  },
-  {
-    title: 'WatchlistTogether',
-    image: watchListProject,
-    imagePosition: 'center top',
-    category: 'Web application',
-    description: 'Worked on the SQLite backend for a watchlist app that uses a movie API to add shows and movies, track statuses such as Watching, Completed, and Dropped, and record episode progress for shows.',
-    stack: ['SQLite', 'Backend', 'Movie API'],
-    liveUrl: '',
-    githubUrl: 'https://github.com/Official404/WatchlistTogether',
-    art: 'orange', artTitle: 'WATCHLIST TOGETHER', artGlyph: '+',
   },
 ];
