@@ -1,6 +1,7 @@
 import mapNavigationImage from '../Images/MapNavigationProject.png';
 import collisionAvoidanceProjectImage from '../Images/CollisionAvoidanceProject.png';
 import watchListProject from '../Images/WatchListProject.png';
+import cppDbProjectImage from '../Images/CPPDBProject.png';
 
 // Update this file to personalize your profile, experience, and project showcase.
 export const profile = {
@@ -62,5 +63,15 @@ export const projects = [
     liveUrl: 'https://ckaygc.github.io/MapNavigationProject/',
     githubUrl: 'https://github.com/CkayGC/MapNavigationProject',
     art: 'lime', artTitle: 'MAP NAVIGATION', artGlyph: '*',
+  },
+  {
+    title: 'What im working on next',
+    image: cppDbProjectImage,
+    category: 'Backend',
+    description: 'A C++ SQLite backend built as a Win32 API project.',
+    stack: ['C++', 'SQLite', 'Win32 API'],
+    liveUrl: '',
+    githubUrl: 'https://github.com/CkayGC/CPP_DB_Project',
+    art: 'violet', artTitle: 'CPP SQLITE BACKEND', artGlyph: '*',
   },
 ];

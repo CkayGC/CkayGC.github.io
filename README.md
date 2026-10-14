@@ -4,8 +4,7 @@ A responsive portfolio site for presenting profile information, selected project
 
 ## Built with
 
-- React and JavaScript
-- CSS for responsive styling
-- GitHub Actions and GitHub Pages for deployment
-# PortfolioWebsite
-# PortfolioWebsite
+* React and JavaScript
+* CSS for responsive styling
+* GitHub Actions and GitHub Pages for deployment
+
